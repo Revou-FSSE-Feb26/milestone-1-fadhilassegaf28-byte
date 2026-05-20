@@ -39,4 +39,6 @@ Website portfolio sederhana yang dibuat untuk menampilkan informasi pribadi dan 
 ## Author
 
 Abdullah Fadhil  
-Mahasiswa Digital Business
+Mahasiswa Digital Busines
+
+https://revou-fsse-feb26.github.io/milestone-1-fadhilassegaf28-byte/#home
