@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/* HEADER */
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00bfff;
+}
+
+/* SECTION */
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* ABOUT FLEX */
+.about-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.about-container img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* PROJECT CARD */
+.project {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.03);
+}
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
